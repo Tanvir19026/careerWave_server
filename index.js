@@ -13,7 +13,7 @@ const port = process.env.PORT || 5000;
 app.use(express.json());
 app.use(
   cors({
-    origin: ["https://magenta-arithmetic-a45d97.netlify.app/"], // React frontend URL
+    origin: ["https://resonant-kleicha-c82a67.netlify.app"], // React frontend URL
     credentials: true,
   })
 );
